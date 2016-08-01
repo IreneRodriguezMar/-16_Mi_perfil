@@ -1,0 +1,70 @@
+.fondo{
+background-image: url("../img/ballena.jpg");
+background-size:cover;
+height: 600px;
+background-repeat: no-repeat;
+}
+.fondo2{
+	background-image: url("../img/tile1.png");
+	height: 400px;
+	background-size: cover;
+	margin: 5%; 
+	
+	}
+.fondo3{
+	background-image: url("../img/tile2.png");
+	background-size:cover;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+.izquierda{
+	margin-left: 5%;
+}
+
+}
+.menu{
+	margin: 10%;
+	background-color:;
+	
+}
+.centro{
+	color:white;
+
+}
+.about{
+	font-size: 30px;
+	margin: 5%;
+	color:purple; 
+	margin-left: 40%;
+}
+.foto{
+		
+
+}
+.texto{
+	font-family: arial;
+	
+}
+.circulos{
+border-radius: 90%;
+width:150px; 
+height:150px;
+margin-left: 200px;
+}
+.things{
+font-size: 30px;
+color:purple;
+padding: 5%
+}
+.here{
+	font-size: 20px;
+	color:purple;
+	
+	}
+.contact{
+	font-size: 30px;
+	color: purple;
+}	
+.iconos{
+	margin-left: 15%;
+}
