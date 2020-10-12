@@ -7,16 +7,15 @@
 }
 .fondo2{
 	background-image: url("../img/tile1.png");
-	height: 400px;
-	background-size: cover;
-	margin: 5%;
-
+	height: 40vh;
+    background-size: cover;
+    width: 100%;
 	}
 .fondo3{
 	background-image: url("../img/tile2.png");
-	background-size:cover;
-	height: 200px;
-	background-repeat: no-repeat;
+	height: 40vh;
+    background-size: cover;
+    width: 100%;
 }
 .izquierda{
 	margin-left: 5%;
@@ -33,7 +32,7 @@
 
 }
 .about{
-	font-size: 30px;
+	font-size: 2.8em;
 	color:purple;
 }
 .foto{
@@ -99,4 +98,24 @@ a.link-menu {
 }
 .content-principal.centro.text-center h3 {
     font-size: 2em;
+}
+.content-secc2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+p.col-12.about {
+    display: flex;
+    justify-content: center;
+}
+.content-txt-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 6%;
+}
+p.txt-sec2 {
+    padding: 2% 5%;
 }
