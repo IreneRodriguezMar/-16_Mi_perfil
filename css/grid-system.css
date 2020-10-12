@@ -1,8 +1,8 @@
 /* GLOBAL */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 /* Grid system */
@@ -14,7 +14,7 @@
 
 .container {
 	width: 960px;
-	padding-left: 14px; 
+	padding-left: 14px;
 	padding-right: 14px;
 	margin: 0px auto;
 }
@@ -25,11 +25,11 @@
 }
 
 .row:before, .row:after{
-  content: " ";
-  display: table;
+	content: " ";
+	display: table;
 }
 .row:after {
-  clear: both;
+	clear: both;
 }
 
 [class*="col-"] {
@@ -41,17 +41,17 @@
 .col-1 {
 	/* (1 / 12) x 100 */
 	width: 8.333333%;
-} 
+}
 
 .col-2 {
 	/* (2 / 12) x 100 */
 	width: 16.666667%;
-} 
+}
 
 .col-3 {
 	/* (3 / 12) x 100 */
 	width: 25%;
-} 
+}
 
 .col-4 {
 	/* (4 / 12) x 100 */
@@ -66,7 +66,7 @@
 .col-6 {
 	/* (6 / 12) x 100 */
 	width: 50%;
-} 
+}
 
 .col-7 {
 	/* (7 / 12) x 100 */
