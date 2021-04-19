@@ -2,121 +2,116 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mi Perfil</title>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/utilities.css">
-	<link rel="shortcut icon" href="favicon.png">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body>
-	<header>
-		<nav>
-			<div class="menu"><!--inicia menu-->
-				<a href="" class="link-menu">ABOUT</a>
-
-				<a href="" class="link-menu">FAVOURITIES</a>
-
-				<a href="" class="link-menu">CONTACT</a>
-
-			</div><!--termina menu-->
-		</nav>
-		<div class="fondo"><!--inicia fondo-->
-			<div class="cont-text">
-				<div class="content-principal logo text-center">
-					<img src="img/logo.png">
-				</div>
-				<div class="content-principal centro text-center">
-					<h1>IRENE RODRIGUEZ</h1>
-				</div>
-				<div class="content-principal centro text-center">
-					<h3>Front-End Jr</h3>
-				</div>
+	<div class="container">
+<!-- menú superior-->
+		<div class="nav">
+			<div class="nav_desk" id="myTopnav">
+				<a href="#about">About</a>
+				<a href="#favourites">Favourites</a>
+				<a href="#contact">Contact</a>
 			</div>
-		</div><!--termina fondo-->
-	</header>
-	<article>
-		<section>
-			<div class="container-fluid fondo2"><!--inicia seccion about me-->
-				<div class="content-secc2">
-					<div class="row">
-						<p class="col-12 about">About Me</p>
-					</div>
-					<div class="content-txt-img">
-						<div class="col-2 foto">
-							<img src="img/irene.jpg">
-						</div>
-						<p class="txt-sec2">
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Consequuntur eum quibusdam consectetur similique tempora atque amet.
-							Quo aut similique eaque totam, laudantium dolor soluta facilis!
-							Repudiandae veniam tempore eligendi ad.
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Consequuntur eum quibusdam consectetur similique tempora atque amet.
-							Quo aut similique eaque totam, laudantium dolor soluta facilis!
-							Repudiandae veniam tempore eligendi ad.
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Consequuntur eum quibusdam consectetur similique tempora atque amet.
-							Quo aut similique eaque totam, laudantium dolor soluta facilis!
-							Repudiandae veniam tempore eligendi ad.
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Consequuntur eum quibusdam consectetur similique tempora atque amet.
-							Quo aut similique eaque totam, laudantium dolor soluta facilis!
-							Repudiandae veniam tempore eligendi ad.
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Consequuntur eum quibusdam consectetur similique tempora atque amet.
-							Quo aut similique eaque totam, laudantium dolor soluta facilis!
-							Repudiandae veniam tempore eligendi ad.
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-							Consequuntur eum quibusdam consectetur similique tempora atque amet.
-							Quo aut similique eaque totam, laudantium dolor soluta facilis!
-							Repudiandae veniam tempore eligendi ad..
-						</p>
-					</div>
-				</div>
-			</div><!--termina seccion about me-->
-			<div class="container"><!--inicia cosas que me gustan-->
-				<div class="row">
-					<div class="col-12 things text-center">My Favourite Things</div>
-				</div>
-				<div class="row">
-					<div class="col-12 here text-center">Here are a few things I really love</div>
-				</div>
-				<br>
-				<div class="row">
-					<div class="col-3">
-						<img class="circulos" src="img/pug.jpg" alt="perro">
-					</div>
-					<div class="col-3">
-						<img class="circulos" src="img/libros.jpg" alt="libros">
-					</div>
-					<div class="col-3">
-						<img class="circulos" src="img/comida.jpg" alt="comida">
-					</div>
-				</div>
-			</div><!--termina cosas que me gustan-->
-		</section>
-	</article>
-	<br>
-	<footer>
-		<div class="container-fluid fondo3">
-			<div class="row">
-				<div class="col-12 contact text-center">
-					Contact Me
-				</div>
+			<div class="nav_mob">
+				<button class="ham">
+					<span class="menuIcon material-icons">menu</span>
+					<span class="xIcon material-icons" style="display: none;">close</span>
+				</button>
+				<ul class="menu">
+					<li><a class="menuLink" href="#about">About</a></li>
+					<li><a class="menuLink" href="#favourites">Favourites</a></li>
+					<li><a class="menuLink" href="#contact">Contact</a></li>
+				</ul>
 			</div>
-			<br>
-			<div  class="row iconos">
-				<div class="col-4">
-					<a href="www.twitter.com"><img src="img/twitter.png"></a>
+		</div>
+<!-- Principal Banner  -->
+		<div class="herobanner">
+			<div class="hernobanner_icon">
+				<img src="img/logo.png" alt="" srcset="">
+			</div>
+			<p class="herobanner_title">IRENE RODRÍGUEZ</p>
+			<p class="herobanner_subtitle">FRONT-END JR</p>
+		</div>
+<!-- About Section -->
+		<div id="about" class="about">
+			<div class="about_title">
+				<p>About Me</p>
+			</div>
+			<div class="about_content">
+				<div class="about_image">
+					<img src="/img/profile.jpg" alt="" srcset="">
 				</div>
-				<div class="col-4">
-					<a href="www.facebook.com"><img src="img/facebook.png"></a>
-				</div>
-				<div class="col-4">
-					<a href="www.linkedin.com"><img src="img/linkedin.png"></a>
+				<div class="about_text">
+					<p>
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit.Distinctio impedit recusandae molestias,
+						dolores eaque suscipit aperiam quaerat sed ullam tempore, blanditiis totam inventore placeat?
+						Velit culpa ab eveniet reprehenderit rerum?
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique ipsum delectus culpa
+						aspernatur! Laborum, exercitationem. Rerum reprehenderit eum autem officia, repellat, molestias
+						quos eius assumenda minus debitis minima quo.
+						Lorem ipsum dolor, sit amet consectetur adipisicing elit.Distinctio impedit recusandae molestias,
+						dolores eaque suscipit aperiam quaerat sed ullam tempore, blanditiis totam inventore placeat?
+						Velit culpa ab eveniet reprehenderit rerum?
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique ipsum delectus culpa
+						aspernatur! Laborum, exercitationem. Rerum reprehenderit eum autem officia, repellat, molestias
+						quos eius assumenda minus debitis minima quo.
+					</p>
 				</div>
 			</div>
 		</div>
-	</footer>
+<!-- About Favourites -->
+		<div id="favourites">
+			<div class="fav_title">
+				<p>My Favourite Things</p>
+				<p class="favourite_subtitle">Here are a few things I really love</p>
+			</div>
+			<div class="favourite_content_img">
+				<div class="fav_cont-img">
+					<div id="image1" class="shadow"></div>
+				</div>
+				<div class="fav_cont-img">
+					<div id="image1" class="shadow"></div>
+				</div>
+				<div class="fav_cont-img">
+					<div id="image1" class="shadow"></div>
+				</div>
+				<div class="fav_cont-img">
+					<div id="image1" class="shadow"></div>
+				</div>
+			</div>
+		</div>
+<!-- Footer -->
+		<div id="contact" class="contact_container">
+			<div class="contact_title">
+				<p>Contact Me</p>
+			</div>
+			<div class="contact_cont_social">
+				<div class="icon">
+					<a href="http://twitter.com">
+						<img src="/img/twitter.png" alt="">
+					</a>
+				</div>
+				<div class="icon">
+					<a href="http://facebook.com">
+						<img src="/img/facebook.png" alt="">
+					</a>
+				</div>
+				<div class="icon">
+					<a href="http://linkedin.com">
+						<img src="/img/linkedin.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="JS/main.js"></script>
+
 </body>
 </html>
